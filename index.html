@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>mission youtube clone</title>
+    <script >// This will disable all the children of the div
+      function content1(){document.location.href="content video\content.1"}
+      console.log("hello");</script>
+ 
+    <style>
+         header {
+            position: sticky;
+            top: 0;
+            background-color: rgba(15, 15, 15, 255);
+            z-index: 2;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        ::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+        body {
+            background-color: rgba(15, 15, 15, 255);
+        }
+
+        div.scrollmenu {
+            background-color: rgba(15, 15, 15, 255);
+            height: 60px;
+            font-weight: 600;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-top: 0px;
+            padding-top: 0px;
+            overflow: auto;
+            white-space: nowrap;
+            margin-left: 130px;
+        }
+
+        div.scrollmenu a {
+            background-color: #FFFFFF1A;
+            border-radius: 10px;
+            margin-left: 10px;
+            margin-top: 0px;
+            margin-right: 0px;
+            font-size: 17px;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 30px;
+           text-align: center;
+        }
+
+        .scroll::-webkit-scrollbar {
+            display: none;
+        }
+
+        div.scrollsub {
+            margin-top: 14px;
+        }
+
+        div.scrollmenu::-webkit-scrollbar {
+            display: none;
+        }
+
+        .as {
+            width: 200px;
+            background-color: white;
+        }
+
+        .button {
+            height: 20px;
+            width: 10px;
+            margin-left: 10px;
+        }
+
+        #searchbar {
+            margin-left: 300px;
+            border: 2px solid #222222;
+            margin-top: -50px;
+            width: 700px;
+            border-radius: 50px;
+            height: 45px;
+         
+        }
+        div.content::-webkit-scrollbar{
+            display: none;
+            
+        }
+
+        #slabel {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(162, 162, 162);
+            width: 570px;
+            font-weight: 450;
+            font-size: 17px;
+            margin-left: 15px;
+          margin-top: 0px;
+            margin-bottom: 10px;
+        }
+
+        input:focus {
+            outline: none; /* Remove the default outline */
+            background-color: transparent;
+            color: white; /* Set text color when focused */
+            border: none;
+        
+        }
+        #sbi{
+        border: red; 
+        width: 70px; 
+        margin-top: -0px;
+        width: 100px;
+        height: 45px;
+        border-radius: 0px 50px 50px 0px; 
+        justify-content: center;
+        background-color: #222222;
+        }
+        div.content::-webkit-scrollbar{
+    display: none;
+}
+div.content{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+  
+#firstdiv{
+        border: 2px solid transparent; margin-top: -650px;padding: 0px;
+      }
+      .divc1{
+         border: 2px solid transparent; 
+         background-color: transparent; 
+         height: 200px; 
+         width: 350px; 
+         margin-left: 20px;
+         margin-top: 26px; 
+         border-radius: 15px;
+      }
+      .divlc1{
+        border: 2px solid transparent; 
+        background-color: transparent
+        height: 50px; 
+        width: 50px; 
+        margin-left: 30px;
+        margin-top: 20px; 
+        border-radius: 50px;
+        margin-bottom: 10px;
+      }
+      .divh1{
+        border: 2px solid transparent; 
+        background-color: transparent; 
+        height: 60px; 
+        width: 270px; 
+        margin-left: 100px;
+        margin-top: -63px; 
+        border-radius: 15px;
+     
+
+      }
+      div .p{
+        text-decoration: none;
+      }
+      .divlc2{
+        border: 2px solid transparent; 
+        background-color: transparent;
+         height: 50px; 
+         width: 50px;
+          margin-left: 20px;
+          margin-top: 26px; 
+          border-radius: 50px;
+          margin-bottom: 10px;
+      }
+      .divc2{
+        border: 2px solid transparent; 
+        background-color: transparent; 
+        height: 200px; 
+        width: 350px; 
+        margin-left: 20px;
+        margin-top: -293px; 
+        border-radius: 15px;
+      }
+      .divhc2{
+        border: 2px solid transparent; 
+        background-color: transparent; 
+        height: 60px; 
+        width: 270px; 
+        margin-left: 100px;
+        margin-top: -63px; 
+        border-radius: 15px;
+      }
+      .divc3{
+        border: 2px solid transparent; 
+        background-color: transparent; 
+        height: 200px; width: 350px; 
+        margin-left: 20px;margin-top: -295px; 
+        border-radius: 15px;
+      }
+      .divl3{
+        border: 2px solid transparent; 
+        background-color: transparent; 
+        height: 50px; width: 50px; 
+        margin-left: 30px;
+        margin-top: 26px; 
+        margin-bottom: 10px;
+        border-radius: 50px;
+      }
+      .divh3{
+        border: 2px solid transparent; 
+        background-color: transparent; 
+        height: 60px; 
+        width: 270px; 
+        margin-left: 100px;
+        margin-top: -63px; 
+        border-radius: 15px;
+      }
+        
+    </style>
+
+</head>
+<body><header>   <div id="contaner"> <div style="  margin-left: 900px; border: 2px solid transparent; z-index: 2; padding-bottom: 100px;  width: auto; margin-top: 10px; ">
+       <div  id="sbi" >
+         <img   src="searchlogo.png"  style="margin-top: 6px; Pointer-events: none; user-select: none">
+       </div>
+       <div style="background-color: #3D3D3D; border: 2px solid transparent; width: 45px; height: 45px; margin-left: 140px; margin-top: -49px; border-radius: 50px; text-align: center;">
+           <div style="margin-top:10px ;"> <a href="#" style="Pointer-events: none; user-select: none">
+            <img src="mic.png" ></a>
+           </div></div>
+    </div>
+    <div style="margin-top: -153px;">    
+        <input type="checkbox" name="check" style="display: none;">
+        <label for="check" > 
+            <img src="1.png" style="height: 50px;">
+        </label>
+        <a href="#"><img src="youtube-logo.png"></a>
+        <div id="searchbar">
+            <Pre style="color: transparent; font-size: 8px;">kanishk</Pre>
+            <div for="" id="slabel" style="z-index: -1;">Search
+                <input type="text" name="searchbar" style="
+                    height:30px;
+                    width: 500px;
+                    margin-top: 0px;
+                    background-color: transparent;
+                    border: none;
+                    color: rgb(162, 162, 162);
+                    justify-content: start;">
+            </div>
+            
+        </div ></div></header>
+
+    <div class="scrollmenu">
+        <div class="scrollsub">
+            <a href="#">All</a>
+            <a href="#">news</a>
+            <a href="#">Gaming</a>
+            <a href="#">computer programming</a>
+            <a href="#">Animated films</a>
+            <a href="#">Mixes</a>
+            <a href="#">Music</a>
+            <a href="#">Manga</a>
+            <a href="#">stocks</a>
+            <a href="#">Manga</a>
+            <a href="#">Sitcoms</a>
+            <a href="#">KTM</a>
+            <a href="#">sport bikes</a>
+            <a href="#">Live</a>
+            <a href="#">Drag race</a>
+            <a href="#">Engine</a>
+            <a href="#">Supercar</a>
+            <a href="#">Gadgets</a>
+            <a href="#">Java</a>
+            <a href="#">Javascript</a>
+            <a href="#">more ></a>
+        </div>
+    </div>
+    <div id="menubar" style="border: 2px solid transparent; 
+    height: 700px;
+    width: 100px;
+    margin-top: -60px;
+    position: sticky;
+          
+          /*  background-color: rgba(15, 15, 15, 255);
+            z-index: 2;
+           top:98px;
+             display: flex;
+         
+            align-items: center; */
+    ">
+    <div style="border: 2px solid transparent;
+    width: 90px;
+    height: 90px;
+    margin-top: 20px; 
+    margin-left: 6px;"><label for="homel"> <a href="#" id="homel"><img src="home.png" style="height: 60px;margin-left: 14px;margin-top: 9px;" ></label> </div>
+    <div style="border: 2px solid transparent;
+    width: 100px;
+    height: 90px;
+    margin-top: 20px; 
+    margin-left: 6px;"><label for="homel"> <a href="#" id="homel"><img src="short.png" style="height: 60px;margin-left: 9px;margin-top: px;" ></label></div>
+    <div style="border: 2px solid transparent;
+    width: 100px;
+    height: 90px;
+    margin-top: 20px; 
+    margin-left: 6px;"><label for="homel"> <a href="#" id="homel"><img src="you.png" style="height: 60px;margin-left: px;margin-top: px;" ></label></div>
+    <div style="border: 2px solid transparent;
+    width: 100px;
+    height: 90px;
+    margin-top: 20px; 
+    margin-left: 6px;"><label for="homel"> <a href="#" id="homel"><img src="history.png" style="height: 60px;margin-left: 20px;margin-top: px;" ></a></label></div>
+    
+    
+        
+        
+
+    </div><div id="firstdiv" style="margin-left: 120px;" >
+        <div>
+        <div  class="divc1"><a href="content video\content1.html"   class="divc1" ><img src="c1t.webp"src="c1t.webp"  class="divc1"style=" margin-left: -3px; margin-top:5px; height: 195px;">  </a>
+        
+        </div>
+        <div class="divlc1" ><img src="c1l.jpg" class="divlc1" style="margin-top: -2px; margin-left: -1px;"> </div>
+        <div class="divh1" > <button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;">Lofi Vibes | Mashup Playlist | Hindi Mashup Songs Playlist</button> </div>
+        
+       
+        
+        </div>
+        <div style="margin-left: 380px; ">
+            <div class="divc2"  >
+<a href="content video/content2.html" class="divc2"><input type="image"  onclick=""   src="c3t.webp"  class="divc1" style ="margin-left: -0px; margin-top: -3px; height: ;"></a> 
+            
+            </div>
+            <div class="divlc2"><img src="c3l.jpg" class="divlc2" style="margin-top: 0px; margin-left: 0%;"> </div>
+            <div  class="divhc2"><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;">Damsel | Official Trailer | Netflix</button></div>
+            
+           
+            
+            </div>
+            <div style="margin-left: 780px; ">
+                <div class="divc3" ><a href="content video/content3.html" class="divc2"><img src="c4t.webp" class="divc3" style="margin-top: 0px;"></a>
+                
+                </div>
+                <div class="divl3"><img src="c4l.jpg" class="divl3" style="margin-top: 0px;"> </div>
+                <div class="divh3"><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left; margin-left: 20px;">GODZILLA X KONG: THE NEW EMPIRE | Official Trailer 2 | In Cinemas 29 March 2024</button></div>
+                
+               
+                
+                </div>
+           
+                <div style="margin-top: 0px;" >
+                    <div>
+                    <div  class="divc1" ><img src="c2t.webp" class="divc1" style="margin: 0px;">
+                    
+                    </div>
+                    <div class="divlc1" ><img src="c2l.jpg" class="divlc2" style="margin:0px;"></div>
+                    <div class="divh1" ><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;">Most Beautiful Villages of Uttarakhand | Harsil Valley | Bagori and Mukhwa | Gartang Gali</button></div>
+                    
+                   
+                    
+                    </div>
+                    <div style="margin-left: 380px; ">
+                        <div class="divc2" >
+                        
+                        </div>
+                        <div class="divlc2"></div>
+                        <div  class="divhc2"><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;"></button></div>
+                        
+                       
+                        
+                        </div>
+                        <div style="margin-left: 780px; ">
+                            <div class="divc3" >
+                            
+                            </div>
+                            <div class="divl3"></div>
+                            <div class="divh3"><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;"></button></div>
+                            
+                           
+                            
+                            </div>
+                            <div style="margin-top: 70px;" >
+                                <div>
+                                <div  class="divc1">
+                                
+                                </div>
+                                <div class="divlc1" ></div>
+                                <div class="divh1" ><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;"></button></div>
+                                
+                               
+                                
+                                </div>
+                                <div style="margin-left: 380px; ">
+                                    <div class="divc2" >
+                                    
+                                    </div>
+                                    <div class="divlc2"></div>
+                                    <div  class="divhc2"><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;"></button></div>
+                                    
+                                   
+                                    
+                                    </div>
+                                    <div style="margin-left: 780px; ">
+                                        <div class="divc3" >
+                                        
+                                        </div>
+                                        <div class="divl3"></div>
+                                        <div class="divh3"><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;"></button></div>
+                                        
+                                       
+                                        
+                                        </div>
+                                        <div style="margin-top: 70px;" >
+                                            <div>
+                                            <div  class="divc1">
+                                            
+                                            </div>
+                                            <div class="divlc1" ></div>
+                                            <div class="divh1" ><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;"></button></div>
+                                            
+                                           
+                                            
+                                            </div>
+                                            <div style="margin-left: 380px; ">
+                                                <div class="divc2" >
+                                                
+                                                </div>
+                                                <div class="divlc2"></div>
+                                                <div  class="divhc2"><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;"></button></div>
+                                                
+                                               
+                                                
+                                                </div>
+                                                <div style="margin-left: 780px; ">
+                                                    <div class="divc3" >
+                                                    
+                                                    </div>
+                                                    <div class="divl3"></div>
+                                                    <div class="divh3"><button type="button" style="text-decoration: none; background-color:transparent ; color: #f1f1f1; box-shadow: none; border: none; text-align: left;"></button></div>
+                                                    
+                                                   
+                                                    
+                                                    </div>
+                                                       
+                </div>
+    
+
+</body>
+</html>
